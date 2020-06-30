@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vscodeex\\vscodeex.csproj": {}
+    "d:\\vscodeex\\vscodeex.csproj": {}
   },
   "projects": {
-    "D:\\vscodeex\\vscodeex.csproj": {
+    "d:\\vscodeex\\vscodeex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vscodeex\\vscodeex.csproj",
+        "projectUniqueName": "d:\\vscodeex\\vscodeex.csproj",
         "projectName": "vscodeex",
-        "projectPath": "D:\\vscodeex\\vscodeex.csproj",
+        "projectPath": "d:\\vscodeex\\vscodeex.csproj",
         "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-        "outputPath": "D:\\vscodeex\\obj\\",
+        "outputPath": "d:\\vscodeex\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.Azure.WebJobs.Extensions.SendGrid": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
             "Microsoft.NET.Sdk.Functions": {
               "target": "Package",
               "version": "[3.0.3, )"
